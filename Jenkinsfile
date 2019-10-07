@@ -4,7 +4,7 @@ pipeline {
           stage('Source') {
                steps {
                     git branch: 'master',
-                        url: 'https://github.com/ladyusa/cpe2.git'
+                        url: 'https://github.com/Watbenz/cpe2'
                }
           }
           stage('Build') {
